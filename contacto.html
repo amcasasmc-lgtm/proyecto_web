@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción al viaje</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/Canva/personas.png" type="image/png">
+</head>
+<body>
+
+<nav class="menu">
+  <a href="index.html">Inicio</a>
+  <a href="contenido.html">Destinos</a>
+  <a href="contacto.html" class="activo">Inscripción</a>
+</nav>
+
+<main>
+  <section>
+    <h2>Formulario de inscripción</h2>
+
+    <form>
+
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">¿Por qué quieres unirte al viaje?</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <p>Elige tu tipo de viaje:</p>
+      <label><input type="radio" name="tipo" value="cultural"> Cultural</label>
+      <label><input type="radio" name="tipo" value="playas"> Playas</label>
+      <label><input type="radio" name="tipo" value="gastronomico"> Gastronómico</label>
+      <label><input type="radio" name="tipo" value="senderismo"> Senderismo</label>
+
+      <label><input type="checkbox" name="condiciones" required> Acepto las condiciones del viaje</label>
+
+      <button type="submit">Inscribirme</button>
+
+    </form>
+
+  </section>
+
+  <p class="espaciador">Gracias por tu interés.Nos pondremos en contacto contigo lo antes posible.</p>
+</main>
+
+<footer>
+  <p>Autor : Ana M. Casas | Licencia: CC BY-NC-SA</p>
+</footer>
+
+</body>
+</html>
