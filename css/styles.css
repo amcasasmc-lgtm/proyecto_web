@@ -30,6 +30,7 @@ p {
 /* Menú */
 .menu {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   background-color: #264653; /* azul profundo del fondo del menú */
 }
